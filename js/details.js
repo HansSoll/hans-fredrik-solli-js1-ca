@@ -16,7 +16,8 @@ async function fetchDetail() {
         console.log(details);
 
         document.title = details.name;
-
+        detailsContainer.innerHTML = "";
+        
         createHtml(details);
     }
     catch(error) {

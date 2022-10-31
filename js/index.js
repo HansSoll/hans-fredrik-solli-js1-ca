@@ -23,6 +23,7 @@ async function fetchApi() {
                                             <p>Type of brew: ${breweryType}</p>
                                             <p>City of origin: ${breweryCity}</p>
                                             </a>
+                                            
             `
         }
         
